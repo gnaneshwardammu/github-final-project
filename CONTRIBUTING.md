@@ -1,8 +1,6 @@
 
 # Contributing Guidelines
 
-## Welcome
-
 Thank you for your interest in contributing to the Simple Interest Calculator project.
 
 All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
@@ -10,29 +8,21 @@ All contributions, bug reports, bug fixes, documentation improvements, enhanceme
 ## How to Contribute
 
 1. Fork the repository.
-2. Create a new branch for your changes.
+2. Create a branch for your changes.
 3. Make your changes and test them.
-4. Commit your changes with a clear and descriptive message.
+4. Commit your changes with a descriptive message.
 5. Push your branch to your fork.
-6. Open a pull request describing your changes.
+6. Submit a pull request explaining your changes.
 
-## Reporting Bugs
+## Bug Reports
 
-When reporting a bug, please include:
-- A clear description of the problem.
-- Steps to reproduce the issue.
-- Expected and actual results.
-- Relevant error messages, if any.
+When reporting a bug, describe the issue, explain how to reproduce it, and include the expected and actual results.
 
 ## Code Guidelines
 
-- Write clear and readable Bash code.
+- Keep the Bash script clear and readable.
 - Use meaningful variable names.
-- Test your changes before submitting a pull request.
-- Update the README when necessary.
+- Test your changes before submitting them.
+- Update the documentation when necessary.
 
-## Questions
-
-For questions or suggestions, open an issue in the repository.
-
-Thank you for helping improve this project!
+Thank you for contributing!
