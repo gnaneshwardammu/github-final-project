@@ -1,0 +1,271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #263238;
+    background: #f7f9fc;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 24px 6%;
+    background: #172554;
+    color: white;
+}
+
+.profile-name h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.profile-name p {
+    color: #dbeafe;
+    font-size: 13px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover,
+.navbar a:focus-visible {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #93c5fd;
+}
+
+section {
+    padding: 50px 7%;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background: white;
+}
+
+.profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid #dbeafe;
+    object-fit: cover;
+}
+
+.about-content {
+    flex: 1;
+    min-width: 260px;
+    max-width: 750px;
+}
+
+.about-content h1 {
+    color: #1d4ed8;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    color: #475569;
+}
+
+.section-title {
+    color: #172554;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #3b82f6;
+    display: inline-block;
+}
+
+.skills-container,
+.projects-container,
+.recommendations-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.skill-card {
+    flex: 1 1 170px;
+    max-width: 220px;
+    min-width: 150px;
+    padding: 25px 15px;
+    background: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+}
+
+.skill-card img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.skill-card h3,
+.project-card h3 {
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 14px;
+    color: #64748b;
+}
+
+#projects {
+    background: #eef4ff;
+}
+
+.project-card {
+    flex: 1 1 280px;
+    padding: 25px;
+    background: white;
+    border-left: 5px solid #3b82f6;
+    border-radius: 8px;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+}
+
+.recommendation-card {
+    flex: 1 1 260px;
+    padding: 22px;
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.recommendation-card::before {
+    content: "“";
+    color: #2563eb;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.recommendation-form {
+    max-width: 650px;
+    margin: 40px auto 0;
+    padding: 28px;
+    background: white;
+    border-radius: 12px;
+}
+
+.recommendation-form h3 {
+    color: #172554;
+    margin-bottom: 15px;
+}
+
+.recommendation-form label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+.recommendation-form input,
+.recommendation-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.recommendation-form button {
+    margin-top: 18px;
+    padding: 12px 22px;
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.recommendation-form button:hover {
+    background: #172554;
+}
+
+.home-button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #1d4ed8;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.home-button:hover {
+    background: #172554;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #172554;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        gap: 12px 18px;
+    }
+
+    .about-content h1 {
+        font-size: 26px;
+    }
+
+    section {
+        padding: 40px 5%;
+    }
+
+    .profile-image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .skill-card {
+        max-width: none;
+    }
+}

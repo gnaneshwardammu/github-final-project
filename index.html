@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gnaneshwar Dammu | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+<header class="header">
+    <div class="profile-name">
+        <h2>Gnaneshwar Dammu</h2>
+        <p>Full-Stack Developer</p>
+        <p>Email: gnaneshwar.dammu@example.com</p>
+    </div>
+
+    <nav class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#projects">Project Details</a>
+        <a href="#skills">Skills</a>
+        <a href="#recommendations">Recommendations</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about" class="about-section">
+        <img src="GnanLinkedin.png" alt="Gnaneshwar Dammu"
+             class="profile-image">
+
+        <div class="about-content">
+            <h1>Hi, I'm Gnaneshwar Dammu! 👋</h1>
+            <p>
+                I am an aspiring full-stack developer pursuing a B.Tech
+                in Artificial Intelligence and Machine Learning. I enjoy
+                developing responsive web applications and solving
+                real-world problems using Java, Spring Boot, React,
+                JavaScript, and databases. My projects include a Smart
+                Bike Rental System, MediFind medicine locator, and
+                BudgetWise personal budgeting application. I am passionate
+                about learning new technologies and building useful
+                software solutions.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                     alt="Java logo">
+                <h3>Java</h3>
+                <p>Object-Oriented Programming</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                     alt="React logo">
+                <h3>React</h3>
+                <p>Frontend Development</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                     alt="Spring logo">
+                <h3>Spring Boot</h3>
+                <p>Backend and REST APIs</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                     alt="JavaScript logo">
+                <h3>JavaScript</h3>
+                <p>Interactive Web Applications</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                     alt="MySQL logo">
+                <h3>MySQL</h3>
+                <p>Database Management</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Project Details</h2>
+        <div class="projects-container">
+            <article class="project-card">
+                <h3>Smart Bike Rental System</h3>
+                <p>
+                    Developed a bike rental platform with secure
+                    authentication, booking management, GPS tracking,
+                    and map-based navigation.
+                </p>
+                <p><strong>Technologies:</strong> Java, Spring Boot,
+                   React, MySQL, Leaflet</p>
+            </article>
+
+            <article class="project-card">
+                <h3>MediFind - Medicine Locator</h3>
+                <p>
+                    Created a medicine locator that helps users find
+                    nearby pharmacies and medicine availability, with
+                    AI-assisted prescription identification.
+                </p>
+                <p><strong>Technologies:</strong> React, TypeScript,
+                   Node.js, Supabase, Gemini AI</p>
+            </article>
+
+            <article class="project-card">
+                <h3>BudgetWise - Expense Forecaster</h3>
+                <p>
+                    Built a personal finance application for tracking
+                    expenses, budgeting, and AI-powered expense forecasting.
+                </p>
+                <p><strong>Technologies:</strong> React, TypeScript,
+                   Flask, SQLite, Gemini AI</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2 class="section-title">Recommendations</h2>
+
+        <div id="recommendation-list" class="recommendations-container">
+            <blockquote class="recommendation-card">
+                Gnaneshwar is a dedicated developer who enjoys learning
+                new technologies and solving challenging problems.
+            </blockquote>
+
+            <blockquote class="recommendation-card">
+                He combines frontend and backend development skills
+                to build practical and user-friendly applications.
+            </blockquote>
+
+            <blockquote class="recommendation-card">
+                His enthusiasm for coding and continuous improvement
+                makes him a promising software developer.
+            </blockquote>
+        </div>
+
+        <div class="recommendation-form">
+            <h3>Leave a Recommendation</h3>
+
+            <form id="recommendation-form">
+                <label for="recommendation-name">Your Name (Optional)</label>
+                <input type="text" id="recommendation-name"
+                       placeholder="Enter your name">
+
+                <label for="new-recommendation">Recommendation</label>
+                <textarea id="new-recommendation"
+                          placeholder="Write your recommendation..."
+                          rows="5" required></textarea>
+
+                <button type="submit">Submit Recommendation</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<a class="home-button" href="#top"
+   aria-label="Back to top"
+   onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+    <span aria-hidden="true">⌂</span>
+</a>
+
+<footer>
+    <p>© 2026 Gnaneshwar Dammu | Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
